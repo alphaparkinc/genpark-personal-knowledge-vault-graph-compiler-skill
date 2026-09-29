@@ -1,0 +1,32 @@
+{
+  "name": "genpark-personal-knowledge-vault-graph-compiler-skill",
+  "version": "1.0.0",
+  "description": "Personal knowledge vault graph compiler and bi-directional link indexer parsing [[wikilinks]], tags, and unlinked mentions across personal notes (inspired by Obsidian and Roam).",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "knowledge-graph",
+    "obsidian",
+    "bi-directional-links",
+    "personal-vault",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "index_note",
+      "description": "Index personal markdown note and extract outgoing wikilinks and tags."
+    },
+    {
+      "name": "query_backlinks",
+      "description": "Query incoming backlinks and neighbor connections for a note."
+    },
+    {
+      "name": "compute_vault_analytics",
+      "description": "Compute graph centrality, density, and isolated orphan notes."
+    },
+    {
+      "name": "run_vault_benchmark",
+      "description": "Run knowledge vault graph compiler benchmark."
+    }
+  ]
+}
